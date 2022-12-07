@@ -1,73 +1,77 @@
-body{
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.header{
-    background-color: #1f2937;
-    color: white;
-}
-
-.nav-bar{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+*{
+    padding:0;
+    margin: 0;
     box-sizing: border-box;
-    margin-bottom: 50px;
-}
-.logo{
-    font-size: 28px;
-    font-weight: 900;
-}
-.links{
-    font-size:18px;
 }
 
-.top-section{
+body{
+    font-family: 'Open Sans', sans-serif;
+    width: 100vw;
+    height: 100vh;
+}
+
+header{
+    height:100px;
+    background-color: #f7d999;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 50px 220px;
+    color: #631b0b;
+    flex: 1 1 0%;
 }
-
-.content{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    height: 254px;
-    gap: 20px;
-}
-
-.title{
-    font-size: 48px;
-    font-weight: 800;
-}
-.description{
-    font-size: 18px;
-}
-
-
-
-
-
-button{
-    width: 100px;
-    background-color: #3882f6;
-    border: #3882f6;
-    border-radius: 5px;
-    padding: 10px;
-    color: white; 
-    font-weight: 700;
-}
-
 
 ul{
-    list-style-type: none;
     display: flex;
-    gap: 10px;
+    list-style-type: none;
 }
 
-img{
-    width: 380px;
-    height: 250px;
-    border-radius: 10px;
+ul li a {
+    padding: 0px 20px;
+    text-decoration: none;
+    display: inline-block;
+    color: purple;
+}
+
+main{
+    display: flex;
+    border: 2px solid gold;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 60vh;
+    background-color: #370f06;
+    color: white;
+    flex: 1 1 0%;
+}
+
+.hero-img{
+    display: flex;
+    width: 250px;
+    border-radius: 20px;
+    margin: 3em;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 3em;
+    padding: 3em;
+    flex-wrap: wrap;
+}
+
+
+h1{
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 10px;
+}
+h2{
+    margin-bottom: 10px;
+}
+
+p{
+    margin-bottom: 15px;
+    width: 500px;
+    font-size: 18px;
 }
