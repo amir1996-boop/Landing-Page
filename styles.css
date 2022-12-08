@@ -4,55 +4,123 @@
     box-sizing: border-box;
 }
 
-body{
+.first-section{
+    background-color: burlywood;
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
 }
 
 header{
-    border: 2px solid green;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding: 20px 0px;
-    background-color: brown;
-    color: aliceblue;
+    color: black;
 }
 
 ul {
     display: flex;
     list-style-type: none;
     gap: 40px;
-}
-
-picture {
-    display: block;
-}
-
-img {
-    display: block;
-    width: 45%;
-    height: 60%;
-    border-radius: 10px;
+    font-size: 20px;
 }
 
 main {
-    display: block;
-    width: 98%;
-    max-width: 900px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 100px;
-    gap: 50px;
-    background-color: cornflowerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0px;
 }
 
+.left-content {
+    padding: 60px;
+    margin-left: 15px;
+}
 
-@media (min-width: 700px) {
-    main {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+h1,h2{
+    margin-bottom: 10px;
+}
+
+.first-para{
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+img {
+    border-radius: 8px;
+}
+
+button {
+    background-color: brown;
+    padding: 10px;
+    color: whitesmoke;
+    font-weight: 900;
+    margin-top: 10px;
+}
+
+.second-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    align-self: center;
+    margin-top: 50px;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 50px;
+}
+
+.img-container p {
+    text-align: center;
+    font-size: 18px;
+    text-decoration: underline;
+    margin: 10px;
+    font-weight: 500;
+}
+
+.third-section {
+    background-color: #214778;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.quote{
+    display: flex;
+    align-self: center;
+    font-size: large;
+    padding: 40px;
+    font-style: italic;
+}
+
+.source {
+    display: flex;
+    align-self: center;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.section-four {
+    background-color: burlywood;
+    display: flex;
+    margin: 100px 500px;
+    padding: 20px;
+    justify-content: space-around;
+}
+
+.cta {
+
+}
+
+.cta-button{
+    align-self: center;
 }
